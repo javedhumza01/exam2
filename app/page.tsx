@@ -1,6 +1,8 @@
 export default function Home() {
   return (
     <>
+    Date: 12/9/2024
+
       <h1 className="m-4 text-green-400"> Our Shop</h1>
      
      

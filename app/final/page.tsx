@@ -28,20 +28,21 @@ export default function Page() {
 
         
         <div className="ml-5 mt-5">
-          <label className="text-yellow-400">Size:</label><br />
-          <label htmlFor="small" className="inline-block mr-4 text-yellow-400 cursor-pointer bg-gray-700 rounded-lg py-2 px-4 hover:bg-gray-600">
-            <input type="radio" id="small" name="size" value="small" className="hidden" />
-            Small
-          </label>
-          <label htmlFor="medium" className="inline-block mr-4 text-yellow-400 cursor-pointer bg-gray-700 rounded-lg py-2 px-4 hover:bg-gray-600">
-            <input type="radio" id="medium" name="size" value="medium" className="hidden" />
-            Medium
-          </label>
-          <label htmlFor="large" className="inline-block text-yellow-400 cursor-pointer bg-gray-700 rounded-lg py-2 px-4 hover:bg-gray-600">
-            <input type="radio" id="large" name="size" value="large" className="hidden" />
-            Large
-          </label>
-        </div>
+  <label className="text-yellow-400">Size:</label><br />
+  <label htmlFor="small" className="inline-block mr-4 text-yellow-400 cursor-pointer bg-gray-700 rounded-lg py-2 px-4 hover:bg-gray-600">
+    <input type="radio" id="small" name="size" value="small" className="mr-2" />
+    Small
+  </label>
+  <label htmlFor="medium" className="inline-block mr-4 text-yellow-400 cursor-pointer bg-gray-700 rounded-lg py-2 px-4 hover:bg-gray-600">
+    <input type="radio" id="medium" name="size" value="medium" className="mr-2" />
+    Medium
+  </label>
+  <label htmlFor="large" className="inline-block text-yellow-400 cursor-pointer bg-gray-700 rounded-lg py-2 px-4 hover:bg-gray-600">
+    <input type="radio" id="large" name="size" value="large" className="mr-2" />
+    Large
+  </label>
+</div>
+
 
         
         <div className="ml-5 mt-5 text-yellow-400">
